@@ -12,6 +12,8 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
 
+#PATH=/usr/local/texlive/2020/bin/x86_64-linux:$PATH
+
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
@@ -101,3 +103,11 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 setopt noincappendhistory
 setopt nosharehistory
+
+# mine
+alias msdat=/opt/msdat/msdat.py
+alias mssqlclient=/usr/share/doc/python3-impacket/examples/mssqlclient.py
+alias smbserver=/usr/share/doc/python3-impacket/examples/smbserver.py
+alias psexec=/usr/share/doc/python3-impacket/examples/psexec.py
+alias smbexec=/usr/share/doc/python3-impacket/examples/smbexec.py
+alias ls='ls -al'
